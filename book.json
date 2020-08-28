@@ -1,0 +1,53 @@
+{
+    "title": "Found-monthly",
+    "description": "记录分享新发现的科技见闻，每月28号更新",
+    "author": "Mortal",
+    "output.name": "site",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "root": ".",
+    "links": {
+        "sidebar": {
+            "BlackCatの小窝": "https://www.blackcat.monster"
+        }
+    },
+    "plugins": [
+         "-lunr", 
+         "-search",
+         "-sharing",
+         "-fontsettings",
+         "highlight",
+         "livereload",
+         "search-pro",
+         "expandable-chapters-small",
+         "splitter",
+         "back-to-top-button",
+         "github",
+         "pageview-count",
+         "hide-element",
+         "code",
+         "todo",
+         "custom-favicon",
+         "page-toc-button",
+         "tbfed-pagefooter"
+    ],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/Logistic98/Found-monthly"
+        },
+        "hide-element": {
+            "elements": [".gitbook-link"]
+        },
+       "favicon": "./static/logo.ico",
+       "page-toc-button": {
+            "maxTocDepth": 2,
+            "minTocSize": 2
+        },
+        "tbfed-pagefooter": {
+            "copyright":"Copyright &copy blackcat.monster",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        }
+    }
+}
+
